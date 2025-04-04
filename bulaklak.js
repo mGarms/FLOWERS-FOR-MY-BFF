@@ -2,7 +2,7 @@ onload = () => {
     const c = setTimeout(() => {
       document.body.classList.remove("not-loaded");
   
-      const titles = ('FLOWERS FOR YOU, OKAY LANG YAN.').split('')
+      const titles = ('FLOWERS FOR YOU, SANA MABUHAY KA PA NG MATAGAL! ').split('')
       const titleElement = document.getElementById('title');
       let index = 0;
   
@@ -17,5 +17,5 @@ onload = () => {
       appendTitle();
   
       clearTimeout(c);
-    }, 1000);
+    }, 500);
   };
